@@ -1,0 +1,24 @@
+{
+	"influencers": {
+		"uuid1": {
+			"isActivated": true
+		},
+		"uuid2": {
+			"isActivated": false
+		}
+	},
+	"activationConfigs": {
+		"uuid1": {
+			"application": {
+				"fname": "Adam",
+				"lname": "Szaruga",
+				"instagramHandle": "",
+				"followers": 1200,
+
+			},
+			"approval": false,
+			"acceptedTerms": false,
+			"syncedFeed": false
+		}
+	}
+}

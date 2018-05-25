@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.form-container {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+  color: #f1fafa;
+}
+.form-container h1 {
+  color: #384451
+}
+
+form {
+  color: initial;
+}
+
+/*  ################################################################
+  BOOTSTRAP MODIFICATIONS & TWEAKS
+################################################################# */
+.navbar {
+  min-height: 70px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #00b3fe;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #00b3fe;
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: #384452;
+  border-color: transparent;
+}
